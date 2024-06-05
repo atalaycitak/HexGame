@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="BOTTOM_LEFT" prefHeight="400.0" prefWidth="800.0" spacing="10" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+    <Label fx:id="turnLabel" alignment="TOP_LEFT" contentDisplay="TOP" text="Sıra: " />
+    <AnchorPane fx:id="tileMap" />
+    <Button fx:id="btn5x5" text="5x5" />
+    <Button fx:id="btn11x11" text="11x11" />
+    <Button fx:id="btn17x17" text="17x17" />
+    <Button fx:id="howToPlayButton" text="Nasıl Oynanır?" />
+</VBox>

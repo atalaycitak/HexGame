@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox spacing="10" alignment="CENTER" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+    <Label fx:id="colorPrompt" text="Bir renk seçin"/>
+    <Button fx:id="redButton" text="Kırmızı"/>
+    <Button fx:id="blueButton" text="Mavi"/>
+    <Button fx:id="greenButton" text="Yeşil"/>
+    <Button fx:id="yellowButton" text="Sarı"/>
+    <Button fx:id="purpleButton" text="Mor"/>
+    <Button fx:id="orangeButton" text="Turuncu"/>
+</VBox>
